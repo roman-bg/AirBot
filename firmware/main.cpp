@@ -1,7 +1,7 @@
 /**
 The MIT License (MIT)
 
-Copyright (c) 2015 richardhmm
+Copyright (c) 2021 Roman Rachkov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,9 +23,9 @@ SOFTWARE.
 */
 /**
    connect the sensor as follows :
-          Pin 2 of dust sensor PM1.0      -> Digital 3
+          Pin 2 of dust sensor PM1.0      -> gpio pin 12 esp8266
     Pin 3 of dust sensor          -> +5V 
-    Pin 4 of dust sensor PM2.5    -> Digital 4
+    Pin 4 of dust sensor PM2.5    -> gpio pin 13 esp8266
     Pin 5 of dust sensor          -> Ground
   Datasheet: http://www.samyoungsnc.com/products/3-1%20Specification%20DSM501.pdf
 */
